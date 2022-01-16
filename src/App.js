@@ -1,25 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <title>tosta</title>
+      <h1>t o s t a</h1>
+      <p>Yummy Crisply Fluffy</p>
+      <img
+        src="https://248am.com//images/2021/09/kumorimix.jpg"
+        alt="totsa's yummy selections"
+      />
     </div>
   );
 }
-
 export default App;
